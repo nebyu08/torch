@@ -1,0 +1,1 @@
+this show's the work flow of how torch operates like data loading,data preprocessing,model selection,training the model and evaluating it.
