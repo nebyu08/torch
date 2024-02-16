@@ -1,6 +1,9 @@
 from torchvision import transforms
 from PIL import Image
 from typing import Tuple,List
+import torch
+import torchvision
+import matplotlib.pyplot as plt
 
 def custom_predictions(
     model:nn.Module,
