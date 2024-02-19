@@ -9,7 +9,7 @@ import torch.nn as nn
 def custom_predictions(
     model:nn.Module,
     img_dir:str,
-    class_label:List[str],
+    class_names:List[str],
     img_size:Tuple[int,int]=(224,224),
     device:torch.device="cpu",
     image_transform:torchvision.transforms=None,
